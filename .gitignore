@@ -1,0 +1,32 @@
+# ===== Hugo build output / cache =====
+public/
+resources/_gen/
+.hugo_build.lock
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Working drafts (not for public repo) =====
+ACTION_LOG.md
+content_draft.md
+content_draft_v*.md
+content_draft_v*.docx
+*.docx
+blog_ideas_notebook.md
+blog_research.md
+blog_research/
+blog_quality/
+card1_review_brief.md
+review_brief_chatgpt.md
+v*_review_brief_*.md
+
+# ===== Python (if used for image processing etc.) =====
+__pycache__/
+*.pyc
+.venv/

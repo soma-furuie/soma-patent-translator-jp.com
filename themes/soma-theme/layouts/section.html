@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="page-content">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ if eq .Section "blog" }}
+    <ul class="blog-list">
+      {{ range .Pages }}
+      <li class="blog-item">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Summary }}</p>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+      {{ range .Pages }}
+      <section>
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ .Summary }}
+      </section>
+      {{ end }}
+    {{ end }}
+  </div>
+</article>
+{{ end }}

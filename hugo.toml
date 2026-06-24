@@ -1,0 +1,53 @@
+baseURL = 'https://soma-patent-translator-jp.com/'
+locale = 'en'
+title = 'Soma Furuie | Patent Translator (EN→JA)'
+theme = 'soma-theme'
+
+[params]
+  description = 'English-to-Japanese patent translation. 7+ years on patents, 13 million+ words of patent experience. AI-assisted workflow with full human review. Based in Kyoto, Japan.'
+  author = 'Soma Furuie'
+  tagline = 'Patent translation, sharpened by 13 million+ words of patent experience.'
+  email = 'contact@soma-patent-translator-jp.com'
+  linkedinURL = 'https://www.linkedin.com/in/soma-furuie-patent-translator'
+  prozURL = 'https://www.proz.com/translator/4639915'
+  location = 'Kyoto, Japan'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
+  [[menu.main]]
+    name = 'Services'
+    url = '/services/'
+    weight = 2
+  [[menu.main]]
+    name = 'How I Work'
+    url = '/how-i-work/'
+    weight = 3
+  [[menu.main]]
+    name = 'Blog'
+    url = '/blog/'
+    weight = 4
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 5
+  [[menu.main]]
+    name = 'FAQ'
+    url = '/faq/'
+    weight = 6
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[sitemap]
+  changeFreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
