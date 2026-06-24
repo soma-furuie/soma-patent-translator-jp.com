@@ -19,6 +19,11 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+
 [menu]
   [[menu.main]]
     name = 'About'
