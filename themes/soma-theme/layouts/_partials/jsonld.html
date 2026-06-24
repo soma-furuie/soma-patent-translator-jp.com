@@ -1,0 +1,169 @@
+{{- $baseURL := site.BaseURL }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ $baseURL }}#person",
+      "name": "Soma Furuie",
+      "givenName": "Soma",
+      "familyName": "Furuie",
+      "jobTitle": "Patent Translator",
+      "description": "Freelance English-to-Japanese patent translator. 7+ years on patents, 13 million+ words of patent experience across review and translation.",
+      "url": "{{ $baseURL }}",
+      "image": "{{ "images/portrait.jpg" | absURL }}",
+      "email": "mailto:{{ site.Params.email }}",
+      "knowsLanguage": ["en", "ja"],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Sophia University, Faculty of Foreign Studies, English Department"
+      },
+      "sameAs": [
+        "{{ site.Params.linkedinURL }}",
+        "{{ site.Params.prozURL }}"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kyoto",
+        "addressCountry": "JP"
+      },
+      "knowsAbout": [
+        "Patent translation",
+        "English to Japanese translation",
+        "Medical device patents",
+        "Mechanical engineering patents",
+        "PCT national-phase Japan filings",
+        "Paris route patent filings",
+        "Patent terminology management",
+        "Non-native English patent translation"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ $baseURL }}#service",
+      "name": "Soma Furuie | Patent Translation Services",
+      "description": "Professional English-to-Japanese patent translation. Reviewer-driven quality, terminology consistency, reliable turnaround. AI-assisted workflow with full human review, processed exclusively on AWS Bedrock Japan-only regions.",
+      "url": "{{ $baseURL }}",
+      "image": "{{ "images/portrait.jpg" | absURL }}",
+      "provider": {
+        "@id": "{{ $baseURL }}#person"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "serviceType": "Patent Translation (English to Japanese)",
+      "category": [
+        "Patent specifications",
+        "Patent abstracts",
+        "PCT national-phase Japan filings",
+        "Paris route filings"
+      ],
+      "knowsLanguage": ["en", "ja"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ $baseURL }}#website",
+      "url": "{{ $baseURL }}",
+      "name": "{{ site.Title }}",
+      "description": "{{ site.Params.description }}",
+      "publisher": {
+        "@id": "{{ $baseURL }}#person"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+
+{{ if eq .RelPermalink "/faq/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What languages do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "English to Japanese only. Focusing on a single language pair helps me maintain consistency and quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get a quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Send your document (or word count and subject matter) to contact@soma-patent-translator-jp.com. Include your target deadline with timezone. Reply within 24 hours with a detailed quote. Pricing and terms are flexible based on project specifics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods do you accept?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wise, PayPal, and bank transfer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your turnaround time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 5,000 words: 1.5 business days. Up to 12,000 words: 3 business days. Larger documents: custom timeline. Rush delivery available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of documents do you translate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patent specifications (descriptions, claims, abstracts, drawings text) and standalone patent abstracts, for both Paris route and PCT national-phase Japan filings. Primary fields: medical devices and mechanical engineering. Also handles electronics, semiconductors, telecommunications, software, AI, optical, and lighting technologies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my document kept confidential?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Processed through AWS Bedrock in Japan only (Tokyo and Osaka regions), with no data retention and no use in AI training. NDA signed before we start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does your AI-assisted workflow affect quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI accelerates the first draft, but quality comes from human review. Every sentence is checked for accuracy, nuance, and patent-specific conventions. The system also enforces terminology consistency across filings, so quality compounds project to project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle non-native English source documents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "7+ years of patent work have built both technical fluency and a reviewer's eye for non-native English (often translated from German, Chinese, or French before reaching me). The technical intent is reconstructed behind structural irregularities and rendered in clean Japanese."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with translation agencies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when the agency allows use of my own translation system. Not a fit for agencies requiring specific CAT tool mandates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are you based?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kyoto, Japan (JST / UTC+9). Clients worldwide."
+      }
+    }
+  ]
+}
+</script>
+{{ end }}

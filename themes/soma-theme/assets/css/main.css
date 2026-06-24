@@ -764,6 +764,37 @@ footer {
   }
 }
 
+/* ===== 404 Error Page ===== */
+.error-page {
+  margin-top: var(--nav-height);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--color-bg);
+}
+.error-page .container { max-width: 580px; }
+.error-label {
+  font-family: var(--font-sans);
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.error-page h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.error-text {
+  color: var(--color-body-soft);
+  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+}
+
 /* ===== Blog List ===== */
 .blog-list { list-style: none; padding: 0; }
 .blog-item {
