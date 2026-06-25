@@ -30,3 +30,9 @@ v*_review_brief_*.md
 __pycache__/
 *.pyc
 .venv/
+
+# ===== Raw image sources at project root (not for theme/static) =====
+/photo_*.jpg
+/*.jpeg
+/IMG_*
+/screenshot_*
