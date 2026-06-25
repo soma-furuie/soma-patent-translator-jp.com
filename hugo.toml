@@ -6,7 +6,7 @@ canonifyURLs = true
 enableRobotsTXT = true
 
 [params]
-  description = 'English-to-Japanese patent translation. 7+ years on patents, 13 million+ words of patent experience. AI-assisted workflow with full human review. Based in Kyoto, Japan.'
+  description = 'English-to-Japanese patent translation. 7+ years on patents, 13 million+ words of experience. AI-assisted, fully human-reviewed. Based in Kyoto, Japan.'
   author = 'Soma Furuie'
   tagline = 'Patent translation, sharpened by 13 million+ words of patent experience.'
   email = 'contact@soma-patent-translator-jp.com'

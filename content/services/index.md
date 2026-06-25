@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "English-to-Japanese patent translation services. Patent specifications, abstracts, Paris route and PCT national-phase Japan filings. Medical devices and mechanical engineering primary fields."
+description: "EN→JA patent translation. Specifications, abstracts, claims. Paris route and PCT Japan filings. Medical devices and mechanical engineering primary fields."
 layout: "page"
 ---
 
