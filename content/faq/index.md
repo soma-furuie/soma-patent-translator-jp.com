@@ -33,7 +33,7 @@ Wise, PayPal, and bank transfer.
 
 ## Is my document kept confidential?
 
-Yes. Processed through **AWS Bedrock in Japan only** (Tokyo and Osaka regions), with **no data retention** and **no use in AI training**. **NDA signed before we start**. [Full security details →](/how-i-work/#confidentiality--data-security)
+Yes. Processed through **AWS Bedrock in Japan only** (Tokyo region, ap-northeast-1), with **no data retention** and **no use in AI training**. **NDA signed before we start**. [Full security details →](/how-i-work/#confidentiality--data-security)
 
 ## How does your AI-assisted workflow affect quality?
 

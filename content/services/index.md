@@ -43,9 +43,9 @@ Electronics and electrical engineering, semiconductors, telecommunications, soft
 
 - Technical accuracy verified against the source intent: every claim and figure cross-checked
 - Terminology consistency, managed by my glossary system
-- Translation notes flagging source-text issues — typos, reference-sign mismatches, structurally ambiguous passages I had to interpret
+- A translation-notes document I prepare during review, flagging source-text issues — typos, reference-sign mismatches, structurally ambiguous passages I had to interpret
 - Format preservation (Word, XLIFF, or other)
-- Reference-sign validation against drawings
+- Reference-sign cross-check against drawings — handled by me during human review, not delegated to the automated layer
 - 1 revision round at no additional charge
 
 ## Reviewer-Driven QA

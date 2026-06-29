@@ -30,7 +30,7 @@ Claude AI on AWS Bedrock, fed your project's glossary and prior context. Not gen
 
 **4. Automated Quality Checks**
 
-The system catches terminology drift, reference-sign mismatches, missing paragraphs, and numerical inconsistencies. **The mechanical errors handled before I read a draft.**
+The system catches terminology drift, internal reference-sign inconsistencies, missing paragraphs, and numerical inconsistencies in the source-to-draft comparison. **The mechanical errors handled before I read a draft.**
 
 **5. AI-Assisted Review**
 
@@ -38,7 +38,7 @@ Claude flags scope ambiguities, antecedent issues, and claim-spec misalignment f
 
 **6. Human Review**
 
-This is the work. **Every sentence read by me**. I verify technical accuracy, validate terminology against your glossary, check claim scope, and reconstruct intended meaning where the source is unclear or non-native.
+This is the work. **Every sentence read by me**. I verify technical accuracy, **cross-check reference signs against your drawings** (a step I keep in human hands, not the automated layer), validate terminology against your glossary, check claim scope, and reconstruct intended meaning where the source is unclear or non-native.
 
 Years of patent review experience applied to your translation — this is where the system meets a reviewer's eye, and where the result becomes **filing-ready**.
 
@@ -46,7 +46,7 @@ With the drafting layer automated, I'm not piecing language together from scratc
 
 **7. Delivery with Translation Notes**
 
-The translation arrives with a notes file flagging issues in the source — original typos, reference-sign mismatches, and structurally ambiguous passages where I had to choose an interpretation. **You see what I caught and how I read the ambiguous parts.**
+I deliver a translation-notes document alongside the translation, listing source-text issues I flagged during review — original typos, reference-sign mismatches, and structurally ambiguous passages where I had to choose an interpretation. **You see what I caught and how I read the ambiguous parts.**
 
 ## Terminology Management
 
@@ -58,7 +58,7 @@ A **multi-sheet glossary system** grows with every project. **Client-specific te
 
 ## Confidentiality & Data Security
 
-**No data retention. No use in AI training.** AI processing runs on AWS Bedrock's **Japan-only regions (Tokyo and Osaka)**.
+**No data retention. No use in AI training.** AI processing runs on AWS Bedrock's **Tokyo region (ap-northeast-1)**, keeping your data in Japan.
 
 AWS infrastructure meets **international security standards** (including SOC and ISO certifications). **All file transfers TLS-encrypted.**
 

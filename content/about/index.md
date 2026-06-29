@@ -34,7 +34,7 @@ Reading source English carefully and rendering it precisely in Japanese is what 
 
 ## My Workflow
 
-I've developed my own translation system, and continue to extend it with every project. **12,000+ lines of Python**, designed specifically for patent work. **Claude AI on AWS Bedrock** for the first draft. **I check every sentence** of the translation by hand.
+I've developed my own translation system, and continue to extend it with every project. **26,000+ lines of Python**, designed specifically for patent work. **Claude AI on AWS Bedrock** for the first draft. **I check every sentence** of the translation by hand.
 
 What's behind it:
 
@@ -42,13 +42,13 @@ What's behind it:
 - Project-start term verification so terminology preferences are agreed upfront
 - Layered automated and AI-assisted quality checks before manual review
 - Translation memory that compounds consistency across your filings
-- A translation-notes file calling out source-text issues — typos in the original, reference-sign mismatches, and passages I had to interpret
+- A translation-notes document I prepare alongside the translation, listing source-text issues — typos in the original, reference-sign mismatches, and passages I had to interpret
 
 What this changes about my work: the drafting layer — typing, terminology enforcement, grammatical normalization — happens before I open the file. The remaining work is **the work AI can't do**: interpreting source intent, validating claim scope, catching antecedent traps the system can flag but not resolve.
 
 **AI doesn't replace patent translation expertise. It concentrates my time on the judgment that earns the translation.**
 
-No AI training on your content. No data retention. Processed on AWS Bedrock's Japan-only regions. NDA available on request.
+No AI training on your content. No data retention. Processed on AWS Bedrock's Tokyo region (ap-northeast-1). NDA available on request.
 
 [How it all works in detail →](/how-i-work/)
 
