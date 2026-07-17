@@ -14,7 +14,7 @@ Joined a Japanese patent translation company in 2019. Spent about **6 years in-h
 
 With ongoing freelance work since, I have now passed **13 million words of patent content overall**: **10 million reviewed and roughly 3 million translated**.
 
-That reviewer experience is the foundation of my translation today. I learned, at scale, where patent translations go wrong:
+That reviewer experience is the backbone of the translation work I do today. I learned, at scale, where patent translations go wrong:
 
 - **Terminology drift**
 - **Omitted reference signs**
@@ -22,7 +22,7 @@ That reviewer experience is the foundation of my translation today. I learned, a
 - **Inverted modifier scopes**
 - **Claim-figure mismatches**
 
-In 2025, I transitioned to full-time freelance patent translation.
+In 2025, I transitioned to full-time freelance patent translation. **Translation is now my primary deliverable** — the reviewer's eye runs underneath every sentence I produce.
 
 ## Built on Language, Not Engineering
 

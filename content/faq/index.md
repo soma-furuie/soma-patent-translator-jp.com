@@ -8,6 +8,10 @@ layout: "page"
 
 **English to Japanese only**. Focusing on a single language pair helps me maintain consistency and quality.
 
+## What's your rate?
+
+**Typical rate: around USD 0.13 per source word**, depending on technical complexity and document type.
+
 ## How do I get a quote?
 
 Send your document (or word count and subject matter) to [contact@soma-patent-translator-jp.com](mailto:contact@soma-patent-translator-jp.com). Include your target deadline with timezone. **Reply within 24 hours** with a detailed quote. **Pricing and terms are flexible** based on project specifics.

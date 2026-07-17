@@ -6,7 +6,7 @@ layout: "page"
 
 Professional English-to-Japanese patent translation.
 
-Reviewer-driven quality, terminology consistency, reliable turnaround.
+Translation as the primary deliverable — backed by a reviewer's eye, terminology consistency, and reliable turnaround.
 
 ## Best Fit For
 
@@ -48,9 +48,9 @@ Electronics and electrical engineering, semiconductors, telecommunications, soft
 - Reference-sign cross-check against drawings — handled by me during human review, not delegated to the automated layer
 - 1 revision round at no additional charge
 
-## Reviewer-Driven QA
+## Reviewer-Grade Quality Control (Built into Every Translation)
 
-Every patent checked against 6 common patent translation failure modes:
+Every patent I translate is checked against 6 common patent translation failure modes — the quality control layer is built into the translation workflow, not sold as a separate service:
 
 1. Terminology consistency
 2. Omission prevention (reference signs, values, units)
@@ -77,7 +77,7 @@ Rush delivery on request. Recent example: a 12,000-word medical device patent de
 
 ## Pricing
 
-Per-project quotes based on word count, technical complexity, and timeline. **Detailed quote within 24 hours**.
+**Typical rate: around USD 0.13 per source word**, depending on technical complexity and document type. Per-project quotes account for word count, complexity, and timeline — **detailed quote within 24 hours**.
 
 **Pricing and terms are flexible**. Happy to discuss what works for ongoing partnerships.
 
