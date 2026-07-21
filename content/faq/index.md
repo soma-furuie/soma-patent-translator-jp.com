@@ -57,6 +57,10 @@ I'm not a fit for agencies requiring specific CAT tool mandates.
 
 Kyoto, Japan (JST / UTC+9). Clients worldwide.
 
+## What if you're unavailable?
+
+I work solo — no bench of backup translators. For time-sensitive filings, tell me your deadline upfront and I'll flag any capacity conflict before accepting the project, not after.
+
 ---
 
 Question not listed? [Get in touch →](/contact/)
