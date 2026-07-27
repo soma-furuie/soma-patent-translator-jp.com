@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Request a Patent Translation Quote"
 description: "Request a quote for English-to-Japanese patent translation. Reply within 24 hours. Based in Kyoto, Japan."
 layout: "page"
 ---
@@ -16,10 +16,10 @@ For a quote, include:
 - Target deadline **with timezone** (e.g., June 6, 17:00 CET)
 - Specific terminology requirements or reference materials
 
-Reply within **24 hours**.
+Reply within **24 hours**. Pricing and turnaround questions answered in advance on the [FAQ page](/faq/).
 
 ## Location
 
 Kyoto, Japan (JST / UTC+9)
 
-I work with clients **worldwide** and comfortably across time zones. **Delivery on schedule** regardless of where you are.
+I work with clients **worldwide** and comfortably across time zones — tell me your deadline with timezone and I'll flag any capacity conflict before accepting the project, not after.

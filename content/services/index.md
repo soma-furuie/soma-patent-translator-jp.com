@@ -1,12 +1,12 @@
 ---
-title: "Services"
+title: "English to Japanese Patent Translation Services"
 description: "EN→JA patent translation. Specifications, abstracts, claims. Paris route and PCT Japan filings. Medical devices and mechanical engineering primary fields."
 layout: "page"
 ---
 
 Professional English-to-Japanese patent translation.
 
-Translation as the primary deliverable — backed by a reviewer's eye, terminology consistency, and reliable turnaround.
+Translation as the primary deliverable — backed by [a reviewer's eye](/about/), terminology consistency, and reliable turnaround.
 
 ## Best Fit For
 
@@ -20,13 +20,13 @@ I am a strong fit for:
 Not a fit for:
 
 - High-volume agency contract bidding
-- Projects requiring specific CAT tool mandates
+- Projects requiring specific CAT (computer-assisted translation) tool mandates
 - Language pairs other than English-to-Japanese
 - Generic technical translation outside patents
 
 ## Document Types
 
-- **Patent specifications**: descriptions, claims, abstracts, drawings text — for both Paris route and PCT national-phase Japan filings
+- **Patent specifications**: descriptions, claims, abstracts, drawings text — for both Paris route and PCT national-phase Japan filings (Japan Patent Office, JPO)
 - **Patent abstracts**: standalone, for prior art searches and family research
 
 ## Technical Fields
@@ -41,7 +41,7 @@ Electronics and electrical engineering, semiconductors, telecommunications, soft
 
 ## What's Included
 
-- Technical accuracy verified against the source intent: every claim and figure cross-checked
+- Technical accuracy checked against the source text: every claim and figure cross-checked
 - Terminology consistency, managed by my glossary system
 - A translation-notes document I prepare during review, flagging source-text issues — typos, reference-sign mismatches, structurally ambiguous passages I had to interpret
 - Format preservation (Word, XLIFF, or other)
@@ -61,32 +61,32 @@ Every patent I translate is checked against 6 common patent translation failure 
 
 ## Non-Native English Source Documents
 
-Much of my work involves patents **drafted in non-native English**, translated from German, Chinese, or French before reaching me.
+Much of my work involves patents **drafted in non-native English** — commonly translated from German, Chinese, or French before reaching me, each with its own recurring pattern of structural irregularity: missing or misused articles, ambiguous antecedents, clause structures that don't map cleanly onto English.
 
-**Structural irregularities. Missing articles. Ambiguous antecedents.** I **reconstruct the technical intent** behind these irregularities and render it in **clean Japanese**.
+I read past those irregularities to the underlying technical meaning, then render it in **clean Japanese** — not a literal pass-through of the source's grammar.
 
 ## Turnaround
 
 | Document Size | Standard Delivery |
 |---|---|
-| Up to 5,000 words | **1.5** business days |
-| 5,000-12,000 words | **3** business days |
-| 12,000+ words | Custom timeline |
+| Under 5,000 words | **1.5** business days |
+| 5,000–12,000 words | **3** business days |
+| Over 12,000 words | Custom timeline |
 
 Rush delivery on request. Recent example: a 12,000-word medical device patent delivered May 24 — 13 days before the client's June 6 deadline.
 
 ## Pricing
 
-**Typical rate: around USD 0.13 per source word**, depending on technical complexity and document type. Per-project quotes account for word count, complexity, and timeline — **detailed quote within 24 hours**.
+**Rate: USD 0.13 per source word**, depending on technical complexity and document type. Per-project quotes account for word count, complexity, and timeline — **detailed quote within 24 hours**.
 
-**Pricing and terms are flexible**. Happy to discuss what works for ongoing partnerships.
+**Pricing and terms adjust for ongoing partnerships.**
 
 **Payment methods**: Wise, PayPal, bank transfer.
 
-[Request a quote →](/contact/)
+More pricing and turnaround questions answered on the [FAQ page](/faq/). [Request a quote →](/contact/)
 
 ## Confidentiality
 
-All documents handled with **strict confidentiality**. AI-assisted workflow processes data exclusively through **AWS Bedrock in Japan**, with **no data retention** and **no use in AI training**. NDAs available on request. I sign yours, or use mine.
+All documents handled with **strict confidentiality**. AI-assisted workflow processes data exclusively through **AWS Bedrock in Japan**, with **no data retention or training use by the AI model**. NDAs available on request. I sign yours, or use mine.
 
 [Full data security details →](/how-i-work/)

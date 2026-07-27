@@ -1,18 +1,18 @@
 ---
-title: "How I Work"
+title: "How I Work — AI-Assisted, Human-Reviewed Patent Translation"
 description: "AI-assisted patent translation workflow. 7-step process from project setup to delivery with translation notes. AWS Bedrock Japan-only data security."
 layout: "page"
 ---
 
-AI-assisted speed. A reviewer's eye built from 7+ years of patent work.
+A reviewer's eye built from 7+ years of patent work — with AI accelerating everything except the judgment calls.
 
-A custom translation system designed for patents, so every project benefits from the system that came before it.
+A custom translation system designed for patents, so every project benefits from everything the system has learned on the projects before it.
 
 ## The Process
 
 **1. Project Setup**
 
-Terminology gets locked before translation starts, across three layers:
+Terminology gets locked before translation starts, across 3 layers:
 
 - **Domain knowledge** the system already carries from prior patent work
 - **Your glossary**, if you have one — applied to every relevant occurrence
@@ -22,15 +22,15 @@ Whether you bring prior project assets or start from scratch, **your terminology
 
 **2. Translation Memory Lookup**
 
-For repeat clients, your past filings feed forward — phrasings, term choices, sentence-level structure. **Cross-filing consistency that compounds with every project we do.**
+For repeat clients, your past filings carry forward into the next project — phrasings, term choices, sentence-level structure. **Consistency builds with every project we do.**
 
 **3. AI-Powered First Draft**
 
-Claude AI on AWS Bedrock, fed your project's glossary and prior context. Not generic MT. **The draft already speaks patent language.**
+Claude AI on AWS Bedrock, fed your project's glossary and prior context — not generic machine translation (MT). **The draft already carries your locked terminology, before I ever touch it.**
 
 **4. Automated Quality Checks**
 
-The system catches terminology drift, internal reference-sign inconsistencies, missing paragraphs, and numerical inconsistencies in the source-to-draft comparison. **The mechanical errors handled before I read a draft.**
+The system catches terminology drift, internal reference-sign inconsistencies, missing paragraphs, and numerical inconsistencies in the source-to-draft comparison. **Mechanical errors get handled before I ever read a draft.**
 
 **5. AI-Assisted Review**
 
@@ -38,7 +38,7 @@ Claude flags scope ambiguities, antecedent issues, and claim-spec misalignment f
 
 **6. Human Review**
 
-This is the work. **Every sentence read by me**. I verify technical accuracy, **cross-check reference signs against your drawings** (a step I keep in human hands, not the automated layer), validate terminology against your glossary, check claim scope, and reconstruct intended meaning where the source is unclear or non-native.
+This is the work. **Every sentence is read by me.** I verify technical accuracy, **cross-check reference signs against your drawings** (a step I keep in human hands, not the automated layer), validate terminology against your glossary, preserve claim scope in translation, and reconstruct intended meaning where the source is unclear or non-native.
 
 Years of patent review experience applied to your translation — this is where the system meets a reviewer's eye, and where the result becomes **filing-ready**.
 
@@ -58,13 +58,13 @@ A **multi-sheet glossary system** grows with every project. **Client-specific te
 
 ## Confidentiality & Data Security
 
-**No data retention. No use in AI training.** AI processing runs on AWS Bedrock's **Tokyo region (ap-northeast-1)**, keeping your data in Japan.
+**No data retention or training use by the AI model.** AI processing runs on AWS Bedrock's **Tokyo region (ap-northeast-1)**, keeping your data in Japan.
 
-AWS infrastructure meets **international security standards** (including SOC and ISO certifications). **All file transfers TLS-encrypted.**
+AWS infrastructure meets **international security standards** (including SOC 2 and ISO certifications). **All file transfers TLS-encrypted.**
 
 **Mutual NDA on request — yours or mine.**
 
-Need the technical detail (specific certifications, Bedrock model identifier, region routing)? Happy to walk through it before we start.
+Need the technical detail (specific certifications, Bedrock model identifier, region routing)? I'll walk through it before we start.
 
 ## Comparison
 
@@ -78,4 +78,4 @@ Need the technical detail (specific certifications, Bedrock model identifier, re
 | Processing location | **Japan only** | Unknown/Global | Global |
 | Terminology consistency | **Enforced by system** | None | None |
 
-[Ready to get started? →](/contact/)
+See [Services](/services/) for pricing and turnaround, or the [FAQ](/faq/) for common questions. [Ready to get started? →](/contact/)

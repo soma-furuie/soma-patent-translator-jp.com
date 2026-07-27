@@ -1,18 +1,18 @@
 ---
-title: "About"
+title: "About Soma Furuie — English to Japanese Patent Translator"
 description: "Freelance patent translator based in Kyoto. English to Japanese. 7+ years on patents, 13 million+ words of patent experience across review and translation."
 layout: "page"
 ---
 
 Freelance patent translator. English to Japanese. Based in Kyoto.
 
-My 3-day standard turnaround isn't about speed. It's a workflow built to deliver filing-ready Japanese with margin before your deadline.
+My turnaround (1.5–3 business days, depending on document size — see [Services](/services/) for the breakdown) isn't about speed. It's a workflow built to deliver filing-ready Japanese with margin before your deadline.
 
 ## Background
 
-Joined a Japanese patent translation company in 2019. Spent about **6 years in-house** at roughly **2 million words of patent content per year**. Most of that time, **about 80%, was reviewing translations** by colleagues and external contractors; the rest I translated myself.
+Joined a Japanese patent translation company in 2019. Spent **5 years and 9 months in-house**, at **2 million words of patent content per year**. **80% of that time was reviewing translations** by colleagues and external contractors; the rest I translated myself.
 
-With ongoing freelance work since, I have now passed **13 million words of patent content overall**: **10 million reviewed and roughly 3 million translated**.
+With ongoing freelance work since, I have now passed **13 million words of patent content overall**: **10 million reviewed and 3 million translated**.
 
 That reviewer experience is the backbone of the translation work I do today. I learned, at scale, where patent translations go wrong:
 
@@ -44,11 +44,11 @@ What's behind it:
 - Translation memory that compounds consistency across your filings
 - A translation-notes document I prepare alongside the translation, listing source-text issues — typos in the original, reference-sign mismatches, and passages I had to interpret
 
-What this changes about my work: the drafting layer — typing, terminology enforcement, grammatical normalization — happens before I open the file. The remaining work is **the work AI can't do**: interpreting source intent, validating claim scope, catching antecedent traps the system can flag but not resolve.
+What this changes about my work: the drafting layer — typing, terminology enforcement, grammatical normalization — happens before I open the file. The remaining work is **the work AI can't do**: interpreting source intent, preserving claim scope in translation, catching antecedent (pronoun-reference) traps the system can flag but not resolve.
 
-**AI doesn't replace patent translation expertise. It concentrates my time on the judgment that earns the translation.**
+**AI doesn't replace patent translation expertise. It concentrates my time on the judgment a translation depends on.**
 
-No AI training on your content. No data retention. Processed on AWS Bedrock's Tokyo region (ap-northeast-1). NDA available on request.
+No AI training on your content. No data retention by the AI model. Processed on AWS Bedrock's Tokyo region (ap-northeast-1). NDA available on request.
 
 [How it all works in detail →](/how-i-work/)
 
@@ -60,7 +60,7 @@ A mistranslated term can shift a patent's scope. The work demands meticulous, te
 
 I work best with clients who view translation as part of the patent filing process. Clients who value early identification of source issues, technical accuracy, terminology consistency, and a record of what I caught and how I read the ambiguous parts.
 
-Not a fit: rate-driven volume contracts, projects requiring specific CAT tool mandates, work outside patent documentation.
+Not a fit: rate-driven volume contracts, projects requiring specific CAT (computer-assisted translation) tool mandates, work outside patent documentation.
 
 ## Professional Profiles
 

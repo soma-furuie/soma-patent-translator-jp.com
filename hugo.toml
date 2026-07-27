@@ -1,12 +1,12 @@
 baseURL = 'https://soma-patent-translator-jp.com/'
 locale = 'en'
-title = 'Soma Furuie | Patent Translator (EN→JA)'
+title = 'Soma Furuie | English to Japanese Patent Translator'
 theme = 'soma-theme'
 canonifyURLs = true
 enableRobotsTXT = true
 
 [params]
-  description = 'English-to-Japanese patent translation. 7+ years on patents, 13 million+ words of experience. AI-assisted, fully human-reviewed. Based in Kyoto, Japan.'
+  description = 'English-to-Japanese patent translation. 7+ years on patents, 13 million+ words of experience (10M+ reviewed, 3M+ translated). Fully human-reviewed, AI-assisted. Based in Kyoto, Japan.'
   author = 'Soma Furuie'
   tagline = 'Patent translation, sharpened by 13 million+ words of patent experience.'
   email = 'contact@soma-patent-translator-jp.com'

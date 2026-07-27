@@ -1,0 +1,44 @@
+{{ define "main" }}
+<article class="page-content blog-article">
+  <div class="container blog-container">
+
+    <div class="blog-main">
+      <p class="blog-back"><a href="/blog/">&larr; Back to Blog</a></p>
+
+      <h1>{{ .Title }}</h1>
+
+      <p class="blog-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <span class="blog-meta-dot" aria-hidden="true">&middot;</span>
+        {{ .ReadingTime }} min read
+      </p>
+
+      {{ if .Params.summary }}
+      <div class="blog-summary">
+        <p class="blog-summary-label">Summary</p>
+        {{ .Params.summary | markdownify }}
+      </div>
+      {{ end }}
+
+      {{ if .TableOfContents }}
+      <details class="blog-toc-mobile">
+        <summary>Contents</summary>
+        {{ .TableOfContents }}
+      </details>
+      {{ end }}
+
+      <div class="blog-body">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ if .TableOfContents }}
+    <aside class="blog-toc-sidebar">
+      <p class="blog-toc-label">On this page</p>
+      {{ .TableOfContents }}
+    </aside>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}
