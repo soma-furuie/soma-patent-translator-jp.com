@@ -805,6 +805,30 @@ footer {
 .blog-item time { font-size: 0.85rem; color: var(--color-body-soft); font-family: var(--font-sans); }
 .blog-item p { color: var(--color-body-soft); margin: 0.5rem 0 0; }
 
+.blog-item-with-thumb {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+}
+.blog-item-thumb {
+  flex: 0 0 200px;
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.blog-item-thumb img {
+  display: block;
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.blog-item-body { flex: 1 1 auto; min-width: 0; }
+@media (max-width: 600px) {
+  .blog-item-with-thumb { flex-direction: column; gap: 0.8rem; }
+  .blog-item-thumb { flex-basis: auto; width: 100%; }
+  .blog-item-thumb img { height: 160px; }
+}
+
 /* ===== Blog Article (single post) ===== */
 .page-content .blog-container {
   max-width: 1080px;
@@ -920,6 +944,68 @@ footer {
   text-transform: uppercase;
   color: var(--color-accent);
   margin-bottom: 1.2rem;
+}
+
+/* Inline external-source preview card */
+.link-preview-card {
+  display: block;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin: 0.6rem 0 1.4rem;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(27, 42, 74, 0.06);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.link-preview-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 3px 10px rgba(27, 42, 74, 0.1);
+}
+.link-preview-domain {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.3rem;
+}
+.link-preview-title {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.4;
+}
+.link-preview-desc {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-body-soft);
+  margin-top: 0.3rem;
+}
+
+/* Inline body images */
+.blog-body img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.8rem 0;
+  box-shadow: 0 2px 6px rgba(27, 42, 74, 0.07);
+}
+
+/* Article hero image */
+.blog-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.6rem 0;
+  box-shadow: 0 2px 6px rgba(27, 42, 74, 0.07);
 }
 
 /* Article abstract/summary box */

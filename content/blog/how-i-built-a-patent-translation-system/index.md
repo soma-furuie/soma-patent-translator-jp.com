@@ -1,13 +1,15 @@
 ---
 title: "Why I Built My Own Patent Translation System, and What Only I Can Still Do"
 seoTitle: "Why I Built My Own Patent Translation System"
-description: "Why a patent translator with 7 years of patent translation experience built his own AI-assisted system this year, and where his own judgment still has to take over."
+description: "With 7 years of patent translation experience, I built my own AI-assisted system this year, and my own judgment still has to take over where it stops."
+heroImage: "/blog-images/2026-07-how-i-built-a-patent-translation-system-hero.jpg"
+heroImageAlt: "A person typing on a laptop keyboard, working at a desk"
 summary: |
-  I built an AI-assisted patent translation system this year to eliminate the mechanical errors, omissions, inconsistencies, and term mix-ups that cause most translation failures.
+  I built an AI-assisted patent translation system this year to eliminate the mechanical errors and inconsistencies behind most translation failures.
 
-  The system now owns that mechanical layer completely, but it still cannot catch a mismatched reference sign, confirm final technical accuracy, or resolve a legal ambiguity in claim language: that judgment stays with me.
+  The system owns that mechanical layer completely, but a mismatched reference sign, final technical accuracy, and legal ambiguity in claim language still require my judgment.
 
-  This is the story of what the system does, what it still cannot do, and why 5 years and 9 months spent reviewing other translators' work before I ever billed for my own is what makes the difference now.
+  This is what the system does, what it still can't do, and why about 6 years spent reviewing other translators' work is what makes the difference now.
 date: 2026-07-21
 draft: false
 ---
@@ -62,6 +64,8 @@ Here is the part that matters most to anyone deciding whether to trust this work
 - Resolving referential ambiguity in claim language that changes claim scope
 
 I did not come to this from engineering. I studied English at Sophia University's Faculty of Foreign Studies, no technical background at all. A part-time clerical job at a patent firm in my last year of university, taken deliberately to strengthen my job search, gave me an early, light brush with patents before I joined a Japanese patent translation company in 2019. **About 80% of my time there was reviewing** translations by colleagues and outside contractors, not translating myself. That's where the 10 million words in the opening paragraph actually comes from. It's also where I learned, case by case, what a system can flag and what it can't: a reading skill, not a technical one, is what catches an antecedent slipping loose or a modifier drifting onto the wrong noun.
+
+![A hand holding a pen circles a reference sign on a technical patent drawing, checking it against the printed specification beside it](/blog-images/2026-07-how-i-built-a-patent-translation-system-reference-check.jpg "Cross-checking a reference sign against the drawing by hand")
 
 **Cross-checking reference signs against the drawings**, confirming that "12" in the text is the same "12" that the figure shows, consistently, throughout the document, is not automated. I do that **by hand, on every project**. Get it wrong and two different reference signs get read as two different elements, or the reverse: one element quietly split into two. Either version typically surfaces as a drawing or specification objection during prosecution and, if the confusion is severe enough to affect how a claim term itself gets read, a definiteness dispute later. It is one of the two or three failure points that cause real damage in mechanical and medical device patents, and I have not found a version of automating it that I trust enough to remove myself from the loop.
 

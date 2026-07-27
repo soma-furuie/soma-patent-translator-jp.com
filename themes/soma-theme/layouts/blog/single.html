@@ -13,6 +13,10 @@
         {{ .ReadingTime }} min read
       </p>
 
+      {{ if .Params.heroImage }}
+      <img class="blog-hero-image" src="{{ .Params.heroImage | relURL }}" alt="{{ .Params.heroImageAlt | default "" }}" width="1344" height="768" loading="eager">
+      {{ end }}
+
       {{ if .Params.summary }}
       <div class="blog-summary">
         <p class="blog-summary-label">Summary</p>

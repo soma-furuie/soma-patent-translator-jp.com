@@ -6,10 +6,17 @@
     {{ if eq .Section "blog" }}
     <ul class="blog-list">
       {{ range .Pages }}
-      <li class="blog-item">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Summary }}</p>
+      <li class="blog-item{{ if .Params.heroImage }} blog-item-with-thumb{{ end }}">
+        {{ if .Params.heroImage }}
+        <a class="blog-item-thumb" href="{{ .RelPermalink }}">
+          <img src="{{ .Params.heroImage | relURL }}" alt="{{ .Params.heroImageAlt | default "" }}" loading="lazy">
+        </a>
+        {{ end }}
+        <div class="blog-item-body">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description }}</p>
+        </div>
       </li>
       {{ end }}
     </ul>
