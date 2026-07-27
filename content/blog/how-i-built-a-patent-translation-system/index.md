@@ -1,5 +1,6 @@
 ---
 title: "Why I Built My Own Patent Translation System, and What Only I Can Still Do"
+seoTitle: "Why I Built My Own Patent Translation System"
 description: "Why a patent translator with 7 years of patent translation experience built his own AI-assisted system this year, and where his own judgment still has to take over."
 summary: |
   I built an AI-assisted patent translation system this year to eliminate the mechanical errors, omissions, inconsistencies, and term mix-ups that cause most translation failures.

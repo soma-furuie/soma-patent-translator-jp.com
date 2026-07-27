@@ -100,6 +100,26 @@
 </script>
 {{ end }}
 
+{{ if eq .Section "blog" }}
+{{- $blogData := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "description" (default site.Params.description .Description)
+  "datePublished" (.Date.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "author" (dict "@id" (printf "%s#person" $baseURL))
+  "publisher" (dict "@id" (printf "%s#person" $baseURL))
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "url" .Permalink
+  "image" ("images/portrait.jpg" | absURL)
+  "inLanguage" "en"
+}}
+<script type="application/ld+json">
+{{ $blogData | jsonify | safeJS }}
+</script>
+{{ end }}
+
 {{ if eq .RelPermalink "/faq/" }}
 <script type="application/ld+json">
 {
