@@ -91,4 +91,6 @@ Before an unpublished invention goes anywhere near a translation tool, ask:
 
 If a vendor cannot answer those four questions clearly, that non-answer is itself the answer.
 
+The same blind spot often sits one layer further back. An agency's NDA with you says nothing about whether it reaches the actual translator, reviewer, or AI tool working underneath it. A confidentiality promise that stops at the agency's front door is not much different from no promise at all.
+
 If you're evaluating a translator for a Japan filing, run those same four questions past me directly. My [process page](/how-i-work/) already has the answers written out in detail, and if it's easier to just ask, [reach out](/contact/) and I'll walk through it project by project.
