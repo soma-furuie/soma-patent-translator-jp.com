@@ -44,7 +44,7 @@ Before translation starts on a new project, the system extracts every recurring 
 
 Underneath all of this sits a rules file, written this year but drawing on 7 years of real jobs: every judgment call that came up more than once, finally recorded so it doesn't have to be re-decided from scratch each time. The mechanical layer keeps getting more complete with every project, which means less of it needs my attention on the next one.
 
-None of it (source text, drafts, or the glossary itself) ever touches a model's training set; my [process page](/how-i-work/) covers the data-security setup in full.
+None of it (source text, drafts, or the glossary itself) ever touches a model's training set; I've covered exactly why that risk matters and how my workflow avoids it in [a dedicated post on AI translation and patent novelty](/blog/ai-patent-translation-confidentiality-risk/).
 
 ## 2 passes before I ever open the document
 

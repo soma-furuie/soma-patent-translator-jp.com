@@ -12,8 +12,8 @@ summary: |
   This is what that risk looks like, and why it matters for a Japanese filing.
 
   My own workflow answers it directly: Japan-only processing, no model training, and an NDA on request, so every project stays on the safe side of it.
-date: 2026-07-27
-draft: true
+date: 2026-08-03
+draft: false
 ---
 
 In **2015**, a free Japanese translation site called **Love Honyaku** exposed a stream of confidential documents online, and no one had to hack anything to make it happen. A checkbox that made submitted text publicly viewable was turned on by default, and most users never noticed it was there. Central government ministries, banks, and automakers had internal correspondence indexed by search engines within weeks, alongside personal loan applications, recruiting details, and seminar schedules submitted by ordinary users. Japan's Information-technology Promotion Agency (IPA) issued a formal warning once the scale of the leak became clear.
