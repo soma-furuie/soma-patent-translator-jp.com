@@ -14,7 +14,7 @@ date: 2026-08-10
 draft: true
 ---
 
-Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of that shows what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when a quality process has never actually been tested.
+Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of that shows what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when it is unclear what a quality process actually catches.
 
 Below are the 4 questions that actually test a translator's process, with my own answer under each one.
 
@@ -22,11 +22,11 @@ Below are the 4 questions that actually test a translator's process, with my own
 
 Anyone can say yes when asked whether they have expertise in a given field. **The more useful question is what happens when the honest answer is no.**
 
-For a field genuinely outside my range, biotechnology or chemistry, for example, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
+For a field genuinely outside my range, such as biotechnology or chemistry, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
 
-Inside my actual range, medical devices, mechanical engineering, and adjacent fields like electronics, an unfamiliar sub-area is a different situation. Every recurring technical term still gets locked before translation starts: for ground I know well, that lock draws on years of accumulated judgment calls, recorded in a rules file built from real projects. For ground closer to the edge of my experience, the same locking process runs from the client's own glossary when one is supplied, or from a first pass of dedicated terminology research when it is not. What changes is how much of the initial judgment is mine versus the client's, not whether the process runs at all.
+Inside my actual range, such as medical devices, mechanical engineering, and electronics, I bring everything I have: the full depth of my own technical knowledge and experience, applied honestly to every project.
 
-A translator who claims universal expertise across every technical field is overselling. **I would rather turn down what I cannot verify and show the process for what I can**, because that boundary is the answer worth trusting, not a claim that covers everything.
+A translator who claims universal expertise across every technical field is overselling. **I would rather turn down what I cannot verify and give full effort to what I can**, because that honesty is the answer worth trusting, not a claim that covers everything.
 
 ## 2. What does your translator do when the source patent itself contains an error?
 
