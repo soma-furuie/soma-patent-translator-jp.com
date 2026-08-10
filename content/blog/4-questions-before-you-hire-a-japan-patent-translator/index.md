@@ -18,7 +18,7 @@ Below are the 4 questions that actually test a translator's process, with my own
 
 ## 1. How does your translator handle a technical field they have not worked in before?
 
-Ask directly: can you handle this project? **What matters is whether the answer is grounded in real project history, not a reflexive yes.**
+A translator who says yes to every field, regardless of history, is not answering the question. **A grounded answer points to real project history: something like this before, or nothing like it at all.**
 
 For a field genuinely outside my range, such as biotechnology or chemistry, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
 
@@ -28,14 +28,14 @@ A translator who claims universal expertise across every technical field is over
 
 ## 2. What does your translator do when the source patent itself contains an error?
 
-A translator's job is not to change the source document without saying so. It is also not to translate an error faithfully into the target language without comment. **Both extremes fail the client by withholding something the client needs to know**: a correction made without saying so and an error passed through without comment are the same failure wearing 2 different faces.
+A translator's job is not to change the source document without saying so, and also not to translate an error faithfully into the target language without comment. **Both extremes fail the client by withholding something the client needs to know**: a correction made without saying so and an error passed through without comment are the same failure wearing two different faces.
 
 When my system or my own reading catches an inconsistency in the source, common examples include:
 - A reference sign that does not match the drawing
-- A term used 2 different ways
-- A claim element that drops out partway through the specification
+- A term used two different ways
+- A grammatical error or typo in the source that leaves more than one reading open
 
-The finding gets recorded in a translation note delivered with the project. The mechanical pass usually catches the simpler kind of inconsistency first. **The version that only shows up on a full read-through**, a claim element that narrows in scope by page 40 with no single sentence announcing the change, is the reason I read the entire document before anything ships. The note states what was found and why it matters, then leaves the decision on how to proceed with the client and their counsel.
+The finding gets recorded in a translation note delivered with the project. The mechanical pass catches the simpler kind of inconsistency first, the kind visible in a single sentence. A harder kind only surfaces on a full read-through: a claim element that narrows in scope by page 40, with no single sentence announcing the change. **That harder kind is the reason I read the entire document before anything ships.** The note states what was found and why it matters, then leaves the decision on how to proceed with the client and their counsel.
 
 If your translator cannot describe how they surface a source error, one of two things is happening. Either they have not encountered one yet, unlikely on any filing of real length, or they are not reading closely enough to catch one, the kind of reading I build into every project before it ships.
 
@@ -51,7 +51,7 @@ I ask myself the same 4 questions before any tool touches a client's confidentia
 
 **A vendor who cannot explain all 4 clearly, not just say yes, has already answered the real question.**
 
-My own answer: every draft stays inside a Japan-based processing region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [A full breakdown of that risk and workflow](/blog/ai-patent-translation-confidentiality-risk/) covers the mechanism in detail, from a 2015 leak that exposed government correspondence to a 2024 ABA ethics opinion treating AI data handling as a live professional duty.
+My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [A full breakdown of that risk and workflow](/blog/ai-patent-translation-confidentiality-risk/) covers the mechanism in detail, from a 2015 leak that exposed government correspondence to a 2024 ABA ethics opinion treating AI data handling as a live professional duty.
 
 ## 4. What does your translator's quality process actually catch?
 
@@ -59,8 +59,8 @@ A translator who says a second linguist checks every project is describing a str
 
 My own process combines system checks with a human check, not one instead of the other. Before I read a single sentence, 2 automated passes run: a mechanical check against every wrong rendering I have seen before, then an AI re-read that flags uncertain clauses by severity. Reviewing more than 10 million words of other translators' patent work made 3 failure types unmistakable, in the same order of severity:
 - **Omission**: a word or clause drops out between source and target
-- **Inconsistency**: one source term gets rendered 2 different ways inside a single document
-- **Differentiation failure**: 2 distinct source terms collapse into a single translation and lose the distinction the claim depends on
+- **Inconsistency**: one source term gets rendered two different ways inside a single document
+- **Differentiation failure**: two distinct source terms collapse into a single translation and lose the distinction the claim depends on
 
 The system is built to catch all 3 automatically.
 
