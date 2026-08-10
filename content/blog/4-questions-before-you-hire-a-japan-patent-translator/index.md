@@ -8,19 +8,17 @@ summary: |
   A translator's credentials, years in business, a certification, and a list of technical fields on a website, tell you what they claim, not what they actually do once a project gets hard.
 
   The 4 questions below test the difference directly: an unfamiliar field, a flawed source document, confidential data near an AI tool, and a quality process nobody has stress-tested.
-
-  My own answer to each one comes from the same place: an AI-assisted system I built this year, and the judgment I bring to what it cannot catch.
 date: 2026-08-10
 draft: true
 ---
 
-Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of that shows what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when it is unclear what a quality process actually catches.
+Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of those show what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when it is unclear what a quality process actually catches.
 
 Below are the 4 questions that actually test a translator's process, with my own answer under each one.
 
 ## 1. How does your translator handle a technical field they have not worked in before?
 
-Anyone can say yes when asked whether they have expertise in a given field. **The more useful question is what happens when the honest answer is no.**
+Ask directly: can you handle this project? **What matters is whether the answer is grounded in real project history, not a reflexive yes.**
 
 For a field genuinely outside my range, such as biotechnology or chemistry, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
 
