@@ -22,6 +22,8 @@ A translator who says yes to every field, regardless of history, is not answerin
 
 **My Answer:**
 
+**I take on work inside my real technical range, and decline what falls outside it.**
+
 Inside medical devices, mechanical engineering, and electronics, that line holds even for a sub-area I have not personally handled before, close enough in field, or close enough in sub-field, to extend what I already know into it. I take those projects on and bring everything I have.
 
 That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. **I decline any project outside my real technical range.** Picture a translator who takes one on anyway: agreeing to handle content they do not understand well enough to judge would already be an abdication of responsibility, before an AI tool ever enters the picture. From there, they render a fluent-sounding output as a finished translation, but they turn a first failure into a second, more serious one. I decline the project up front, so neither failure ever becomes possible.
@@ -33,6 +35,8 @@ A translator who claims universal expertise across every technical field is over
 A translator's job is not to change the source document without saying so, and also not to translate an error faithfully into the target language without comment. **An unannounced correction and an uncommented pass-through are the same failure wearing two different faces: both withhold something the client needs to know.**
 
 **My Answer:**
+
+**I flag every source error in a translation note and leave the decision to the client, instead of fixing or ignoring it without saying so.**
 
 When my system or my own reading catches an inconsistency in the source, common examples include:
 - A reference sign that does not match the drawing
@@ -61,6 +65,8 @@ If your translator cannot describe how they surface a source error, one of two t
 Most agencies already run a first check, a second check, and a final check before delivery. **The number of checks is not what matters. What matters is what each one is actually designed to catch, and whether that includes the failures that cost a client trust.**
 
 **My Answer:**
+
+**Automated checks catch the mechanical failures, and a 2-stage human read-through catches the claim-scope judgment calls a system cannot.**
 
 My own process runs on 2 fronts, each with its own 2 stages.
 
