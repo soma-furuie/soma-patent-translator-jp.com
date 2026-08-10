@@ -16,19 +16,23 @@ Most vendor evaluations rely on what is easy to check: years in business, a cert
 
 Below are the 4 questions that actually test a translator's process, with my own answer under each one.
 
-## 1. How does your translator handle a technical field they have not worked in before?
+## Q1. How does your translator handle a technical field they have not worked in before?
 
 A translator who says yes to every field, regardless of history, is not answering the question. **A grounded answer draws a direct line to real project history: how close is this new field to a field I have already handled?**
 
+**My Answer:**
+
 Inside medical devices, mechanical engineering, and electronics, that line holds even for a sub-area I have not personally handled before, close enough in field, or close enough in sub-field, to extend what I already know into it. I take those projects on and bring everything I have.
 
-That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. **I decline any project outside my real technical range.** Picture a translator who takes one on anyway: agreeing to handle content they do not understand well enough to judge is already an abdication of responsibility, before an AI tool ever enters the picture. Delivering that tool's fluent-sounding output as the finished translation, giving the appearance of real work while never actually understanding what it says, turns a first failure into a second, more serious one. Neither describes how I work, which is exactly why the field never gets taken on in the first place.
+That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. **I decline any project outside my real technical range.** Picture a translator who takes one on anyway: agreeing to handle content they do not understand well enough to judge would already be an abdication of responsibility, before an AI tool ever enters the picture. From there, they render a fluent-sounding output as a finished translation, but they turn a first failure into a second, more serious one. I decline the project up front, so neither failure ever becomes possible.
 
 A translator who claims universal expertise across every technical field is overselling. **Declining work outside real experience, instead of outsourcing the judgment to an AI tool and calling it done, is what an honest answer looks like.**
 
-## 2. What does your translator do when the source patent itself contains an error?
+## Q2. What does your translator do when the source patent itself contains an error?
 
 A translator's job is not to change the source document without saying so, and also not to translate an error faithfully into the target language without comment. **An unannounced correction and an uncommented pass-through are the same failure wearing two different faces: both withhold something the client needs to know.**
+
+**My Answer:**
 
 When my system or my own reading catches an inconsistency in the source, common examples include:
 - A reference sign that does not match the drawing
@@ -39,7 +43,7 @@ The finding gets recorded in a translation note delivered with the project. The 
 
 If your translator cannot describe how they surface a source error, one of two things is happening. Either they have not encountered one yet, unlikely on any filing of real length, or they are not reading closely enough to catch one, the kind of reading I build into every project before it ships.
 
-## 3. How does your translator handle AI tools and confidential data?
+## Q3. How does your translator handle AI tools and confidential data?
 
 **An unpublished patent fed into the wrong AI tool can lose its novelty before the application is ever filed**, a risk [covered in detail in a separate post](/blog/ai-patent-translation-confidentiality-risk/). Here is what to ask before it becomes your problem, and my own answer to each one:
 
@@ -52,9 +56,11 @@ If your translator cannot describe how they surface a source error, one of two t
 
 **A vendor who cannot explain their data-handling policy clearly, not just say yes, has already answered the real question.**
 
-## 4. What does your translator's quality process actually catch?
+## Q4. What does your translator's quality process actually catch?
 
 Most agencies already run a first check, a second check, and a final check before delivery. **The number of checks is not what matters. What matters is what each one is actually designed to catch, and whether that includes the failures that cost a client trust.**
+
+**My Answer:**
 
 My own process runs on 2 fronts, each with its own 2 stages.
 
