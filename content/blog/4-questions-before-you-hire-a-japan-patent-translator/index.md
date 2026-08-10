@@ -51,7 +51,7 @@ I ask myself the same 4 questions before any tool touches a client's confidentia
 
 **A vendor who cannot explain all 4 clearly, not just say yes, has already answered the real question.**
 
-My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [TODO-RETENTION: retention period answer pending AWS account confirmation]
+My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. Retention is zero: invocation logging is disabled on my account, so no prompt or output is ever stored.
 
 ## 4. What does your translator's quality process actually catch?
 
