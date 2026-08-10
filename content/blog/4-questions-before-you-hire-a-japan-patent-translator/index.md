@@ -62,22 +62,22 @@ If your translator cannot describe how they surface a source error, one of two t
 
 ## Q4. What does your translator's quality process actually catch?
 
-Most agencies already run a first check, a second check, and a final check before delivery. **The number of checks is not what matters. What matters is what each one is actually designed to catch, and whether that includes the failures that cost a client trust.**
+Most agencies already run a first check, a second check, and a final check before delivery. The number of checks is not what matters. **What matters is what each check is actually designed to catch, and whether that includes the failures that cost a client trust.**
 
 **My Answer:**
 
-**Automated checks catch the mechanical failures, and a 2-stage human read-through catches the claim-scope judgment calls a system cannot.**
+**Automated checks catch the mechanical failures, and a two-stage human read-through catches the claim-scope judgment calls a system cannot.**
 
-My own process runs on 2 fronts, each with its own 2 stages.
+My own process runs on two fronts, each with its own two stages.
 
-The system side starts before a check even runs: every recurring term gets locked before translation starts, so confirmed terms are already correct by the time anything gets reviewed. From there, 2 automated passes run: a mechanical check against every wrong rendering I have seen before, then an AI re-read that flags uncertain clauses by severity. Reviewing more than 10 million words of other translators' patent work made 3 failure types unmistakable, in the same order of severity:
+The system side starts before a check even runs: every recurring term gets locked before translation starts, so confirmed terms are already correct by the time anything gets reviewed. From there, two automated passes run: a mechanical check against every wrong rendering I have seen before, then an AI re-read that flags uncertain clauses by severity. Reviewing more than 10 million words of other translators' patent work made three failure types unmistakable, in the same order of severity:
 - **Omission**: a word or clause drops out between source and target
 - **Inconsistency**: one source term gets rendered two different ways inside a single document
 - **Differentiation failure**: two distinct source terms collapse into a single translation and lose the distinction the claim depends on
 
-The system is built to catch all 3 automatically.
+The system is built to catch all three automatically.
 
-**Human review runs in 2 stages as well, on purpose.** I read the whole document once, the day the draft is ready. I read it again the next morning, with a clear head instead of a tired one, the pass that catches a claim-scope problem born from misreading the underlying invention, the kind no mechanical check can catch.
+**Human review runs in two stages as well, on purpose.** I read the whole document once, the day the draft is ready. I read it again the next morning, with a clear head instead of a tired one, the pass that catches a claim-scope problem born from misreading the underlying invention, the kind no mechanical check can catch.
 
 A second linguist can catch a typo. Whether a process catches a claim-scope problem, on top of the mechanical ones, is the question worth asking.
 
