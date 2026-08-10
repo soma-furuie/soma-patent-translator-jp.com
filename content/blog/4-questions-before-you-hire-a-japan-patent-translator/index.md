@@ -8,8 +8,8 @@ summary: |
   A translator's credentials, years in business, a certification, and a list of technical fields on a website, tell you what they claim, not what they actually do once a project gets hard.
 
   The 4 questions below test the difference directly: an unfamiliar field, a flawed source document, confidential data near an AI tool, and a quality process nobody has stress-tested.
-date: 2026-08-10
-draft: true
+date: 2026-08-11
+draft: false
 ---
 
 Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of those show what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when it is unclear what a quality process actually catches.
