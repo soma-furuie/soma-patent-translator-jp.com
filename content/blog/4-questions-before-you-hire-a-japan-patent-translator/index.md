@@ -2,8 +2,8 @@
 title: "4 Questions to Ask Before You Hire an English to Japanese Patent Translator, Freelance or Agency"
 seoTitle: "4 Questions to Ask an English to Japanese Patent Translator"
 description: "4 questions that reveal whether an English to Japanese patent translator, freelance or agency, actually has a process for catching what most miss."
-heroImage: ""
-heroImageAlt: ""
+heroImage: "/blog-images/2026-08-4-questions-hire-patent-translator-hero.jpg"
+heroImageAlt: "A magnifying glass resting on a plain blue background"
 summary: |
   A translator's credentials, years in business, a certification, and a list of technical fields on a website, tell you what they claim, not what they actually do once a project gets hard.
 
