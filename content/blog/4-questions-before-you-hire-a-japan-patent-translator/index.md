@@ -8,7 +8,7 @@ summary: |
   A translator's credentials, years in business, a certification, and a list of technical fields on a website, tell you what they claim, not what they actually do once a project gets hard.
 
   The 4 questions below test the difference directly: an unfamiliar field, a flawed source document, confidential data near an AI tool, and a quality process nobody has stress-tested.
-date: 2026-08-11
+date: 2026-08-10
 draft: false
 ---
 
