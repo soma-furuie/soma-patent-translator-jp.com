@@ -5,28 +5,30 @@ description: "4 questions that reveal whether an English to Japanese patent tran
 heroImage: ""
 heroImageAlt: ""
 summary: |
-  Most Japan patent translation evaluations stop at credentials, which tell you what a translator claims, not what they actually do.
+  A translator's credentials, years in business, a certification, a list of technical fields on a website, are the easy part to check. They tell you what a translator claims, not what a translator actually does once things get hard.
 
-  The 4 questions below reveal the difference, the ones worth asking before you hire anyone, freelance translator or agency, for an English to Japanese filing.
+  The 4 questions below get past the credentials, the ones worth asking before you hire anyone, freelance translator or agency, for an English to Japanese filing.
 
-  Each section below shows how my own AI-assisted system, built this year on top of years spent reviewing where other translators' work breaks down, handles that exact situation.
+  Below, each one is my own answer: my own AI system and me, together.
 date: 2026-08-10
 draft: true
 ---
 
-Choosing an English to Japanese patent translator is not about finding someone who says yes to every question. It is about finding someone who can explain exactly how they would answer each one.
+A patent translator's website can say almost anything. What actually shows is what happens on the file that does not go smoothly: the field they have not seen before, the source error nobody flagged, the confidential draft that has to stay off a public AI tool, the check that either catches a mistake or does not.
 
-Most vendor evaluations for a Japan filing stop at credentials: years in business, a certification, a list of technical fields on a website. Credentials describe what a translator claims, not what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when a quality process has never actually been tested.
+A translator's credentials, years in business, a certification, a list of technical fields on a website, are the easy part to check. They describe what a translator claims, not what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when a quality process has never actually been tested.
 
-Below are the 4 questions worth asking before you hire anyone, freelance translator or agency, to handle a Japan filing. Under each one is my own answer, drawn from the AI-assisted patent translation system I described in an earlier post.
+The 4 questions below get past the credentials. Below, each one is my own answer: my own AI system and me.
 
 ## 1. How does your translator handle a technical field they have not worked in before?
 
-Anyone can say yes when asked whether they have expertise in a given field. **The more useful question is what happens when the honest answer is no, or only partially.**
+Anyone can say yes when asked whether they have expertise in a given field. **The more useful question is what happens when the honest answer is no.**
 
-In my own system, every recurring technical term gets locked before translation starts. For a field I know well, medical devices or mechanical engineering, that lock draws on years of accumulated judgment calls, recorded in a rules file built from real projects rather than guesswork. For a field further from my core experience, the same locking process still runs: built from the client's own glossary when one is supplied, or from a first pass of dedicated terminology research when it is not. **The workflow does not change. What changes is how much of the initial judgment is mine versus the client's.**
+For a field genuinely outside my range, biotechnology or chemistry, for example, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
 
-A translator who claims universal expertise across every technical field is overselling, since no single person genuinely covers that range. I would rather walk a client through the process above than make that claim, because the process is what actually earns the trust, not the claim itself.
+Inside my actual range, medical devices, mechanical engineering, and adjacent fields like electronics, an unfamiliar sub-area is a different situation. Every recurring technical term still gets locked before translation starts: for ground I know well, that lock draws on years of accumulated judgment calls, recorded in a rules file built from real projects. For ground closer to the edge of my experience, the same locking process runs from the client's own glossary when one is supplied, or from a first pass of dedicated terminology research when it is not. What changes is how much of the initial judgment is mine versus the client's, not whether the process runs at all.
+
+A translator who claims universal expertise across every technical field is overselling. **I would rather turn down what I cannot verify and show the process for what I can**, because that boundary is the answer worth trusting, not a claim that covers everything.
 
 ## 2. What does your translator do when the source patent itself contains an error?
 
