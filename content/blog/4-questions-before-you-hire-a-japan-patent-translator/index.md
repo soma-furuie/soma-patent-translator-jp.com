@@ -18,13 +18,13 @@ Below are the 4 questions that actually test a translator's process, with my own
 
 ## 1. How does your translator handle a technical field they have not worked in before?
 
-A translator who says yes to every field, regardless of history, is not answering the question. **A grounded answer points to real project history: something like this before, or nothing like it at all.**
+A translator who says yes to every field, regardless of history, is not answering the question. **A grounded answer draws a direct line to real project history: how close is this new field to a field I have already handled?**
 
-For a field genuinely outside my range, such as biotechnology or chemistry, my answer is that I turn the project down. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
+Inside medical devices, mechanical engineering, and electronics, that line holds even for a sub-area I have not personally handled before, close enough in field, or close enough in sub-field, to extend what I already know into it. I take those projects on and bring everything I have.
 
-Inside my actual range, such as medical devices, mechanical engineering, and electronics, I bring everything I have: the full depth of my own technical knowledge and experience, applied honestly to every project.
+That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. Extending from what I know does not close a gap that size. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap either: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
 
-A translator who claims universal expertise across every technical field is overselling. **I would rather turn down what I cannot verify and give full effort to what I can**, because that honesty is the answer worth trusting, not a claim that covers everything.
+A translator who claims universal expertise across every technical field is overselling. **I would rather draw that line honestly than make the claim**, because the line itself, not a blanket yes, is the answer worth trusting.
 
 ## 2. What does your translator do when the source patent itself contains an error?
 
@@ -41,7 +41,7 @@ If your translator cannot describe how they surface a source error, one of two t
 
 ## 3. How does your translator handle AI tools and confidential data?
 
-**An unpublished patent fed into the wrong AI tool can lose its novelty before the application is ever filed**, a different kind of damage than an ordinary confidentiality leak. A tool that retains or trains on what you submit can turn a private disclosure into a public one, without anyone breaking in or leaking anything on purpose.
+**An unpublished patent fed into the wrong AI tool can lose its novelty before the application is ever filed**, a risk [covered in detail in a separate post](/blog/ai-patent-translation-confidentiality-risk/). Here is what to ask before it becomes your problem.
 
 I ask myself the same 4 questions before any tool touches a client's confidential text, and any vendor should be able to answer them just as directly:
 1. Does the vendor's terms of use state whether submitted text trains its models?
@@ -51,20 +51,24 @@ I ask myself the same 4 questions before any tool touches a client's confidentia
 
 **A vendor who cannot explain all 4 clearly, not just say yes, has already answered the real question.**
 
-My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [A full breakdown of that risk and workflow](/blog/ai-patent-translation-confidentiality-risk/) covers the mechanism in detail, from a 2015 leak that exposed government correspondence to a 2024 ABA ethics opinion treating AI data handling as a live professional duty.
+My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [TODO-RETENTION: retention period answer pending AWS account confirmation]
 
 ## 4. What does your translator's quality process actually catch?
 
-A translator who says a second linguist checks every project is describing a structure, not a result. **What matters is what that check is designed to catch, and whether it catches the failures that actually cost a client trust.**
+Most agencies already run a first check, a second check, and a final check before delivery. **The number of checks is not what matters. What matters is what each one is actually designed to catch, and whether that includes the failures that cost a client trust.**
 
-My own process combines system checks with a human check, not one instead of the other. Before I read a single sentence, 2 automated passes run: a mechanical check against every wrong rendering I have seen before, then an AI re-read that flags uncertain clauses by severity. Reviewing more than 10 million words of other translators' patent work made 3 failure types unmistakable, in the same order of severity:
+My own process runs on 2 fronts, each with its own 2 stages.
+
+The system side starts before a check even runs: every recurring term gets locked before translation starts, so confirmed terms are already correct by the time anything gets reviewed. From there, 2 automated passes run: a mechanical check against every wrong rendering I have seen before, then an AI re-read that flags uncertain clauses by severity. Reviewing more than 10 million words of other translators' patent work made 3 failure types unmistakable, in the same order of severity:
 - **Omission**: a word or clause drops out between source and target
 - **Inconsistency**: one source term gets rendered two different ways inside a single document
 - **Differentiation failure**: two distinct source terms collapse into a single translation and lose the distinction the claim depends on
 
 The system is built to catch all 3 automatically.
 
-What survives both passes reaches me, and **I build in a cooling-off period on purpose**: the first human read-through happens the day the draft is ready, then a second read happens the next morning with a clear head instead of a tired one. A second linguist can catch a typo. A claim-scope problem born from misreading the underlying invention is a different kind of failure, and whether a process catches that kind, on top of the mechanical ones, is the question worth asking. The buffer built into my own process above is how I answer it.
+**The human side is 2 stages too, on purpose.** I read the whole document once, the day the draft is ready. I read it again the next morning, with a clear head instead of a tired one, the pass that catches a claim-scope problem born from misreading the underlying invention, the kind no mechanical check can catch.
+
+A second linguist can catch a typo. Whether a process catches a claim-scope problem, on top of the mechanical ones, is the question worth asking.
 
 ## What the answers actually tell you
 
