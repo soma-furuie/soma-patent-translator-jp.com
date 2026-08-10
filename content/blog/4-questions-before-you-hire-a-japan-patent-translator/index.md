@@ -22,7 +22,7 @@ A translator who says yes to every field, regardless of history, is not answerin
 
 Inside medical devices, mechanical engineering, and electronics, that line holds even for a sub-area I have not personally handled before, close enough in field, or close enough in sub-field, to extend what I already know into it. I take those projects on and bring everything I have.
 
-That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. Extending from what I know does not close a gap that size. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap either: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer, not a gap to hide behind a glossary.**
+That line breaks for a field with no real proximity to my experience, biotechnology or chemistry, for example. Extending from what I know does not close a gap that size. I cannot verify the technical accuracy of a translation I do not understand well enough to judge, and no AI tool closes that gap either: it can produce fluent-sounding output in a field I have no business claiming. **Turning that project down is the honest answer. Handing the client a careless translation from a tool I cannot fully judge would cost them far more than a direct no.**
 
 A translator who claims universal expertise across every technical field is overselling. **I would rather draw that line honestly than make the claim**, because the line itself, not a blanket yes, is the answer worth trusting.
 
@@ -41,17 +41,16 @@ If your translator cannot describe how they surface a source error, one of two t
 
 ## 3. How does your translator handle AI tools and confidential data?
 
-**An unpublished patent fed into the wrong AI tool can lose its novelty before the application is ever filed**, a risk [covered in detail in a separate post](/blog/ai-patent-translation-confidentiality-risk/). Here is what to ask before it becomes your problem.
+**An unpublished patent fed into the wrong AI tool can lose its novelty before the application is ever filed**, a risk [covered in detail in a separate post](/blog/ai-patent-translation-confidentiality-risk/). Here is what to ask before it becomes your problem, and my own answer to each one:
 
-I ask myself the same 4 questions before any tool touches a client's confidential text, and any vendor should be able to answer them just as directly:
-1. Does the vendor's terms of use state whether submitted text trains its models?
-2. Is the data processed and stored in a specific, named location?
-3. Is a written NDA available before anything gets submitted?
-4. Is there a stated retention period?
+| Question | My answer |
+|---|---|
+| Does the vendor's terms of use state whether submitted text trains its models? | Never. |
+| Is the data processed and stored in a specific, named location? | Yes, entirely inside a Japan-based region. |
+| Is a written NDA available before anything gets submitted? | Yes, on request before a project starts. |
+| Is there a stated retention period? | Zero. Nothing is stored. |
 
 **A vendor who cannot explain all 4 clearly, not just say yes, has already answered the real question.**
-
-My own answer: every draft is processed entirely inside a Japan-based region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. Retention is zero: invocation logging is disabled on my account, so no prompt or output is ever stored.
 
 ## 4. What does your translator's quality process actually catch?
 
