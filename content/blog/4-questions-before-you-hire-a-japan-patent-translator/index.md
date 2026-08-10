@@ -5,20 +5,18 @@ description: "4 questions that reveal whether an English to Japanese patent tran
 heroImage: ""
 heroImageAlt: ""
 summary: |
-  A translator's credentials, years in business, a certification, a list of technical fields on a website, are the easy part to check. They tell you what a translator claims, not what a translator actually does once things get hard.
+  A translator's credentials, years in business, a certification, and a list of technical fields on a website, tell you what they claim, not what they actually do once a project gets hard.
 
-  The 4 questions below get past the credentials, the ones worth asking before you hire anyone, freelance translator or agency, for an English to Japanese filing.
+  The 4 questions below test the difference directly: an unfamiliar field, a flawed source document, confidential data near an AI tool, and a quality process nobody has stress-tested.
 
-  Below, each one is my own answer: my own AI system and me, together.
+  My own answer to each one comes from the same place: an AI-assisted system I built this year, and the judgment I bring to what it cannot catch.
 date: 2026-08-10
 draft: true
 ---
 
-A patent translator's website can say almost anything. What actually shows is what happens on the file that does not go smoothly: the field they have not seen before, the source error nobody flagged, the confidential draft that has to stay off a public AI tool, the check that either catches a mistake or does not.
+Most vendor evaluations rely on what is easy to check: years in business, a certification, and a list of technical fields on a website. None of that shows what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when a quality process has never actually been tested.
 
-A translator's credentials, years in business, a certification, a list of technical fields on a website, are the easy part to check. They describe what a translator claims, not what a translator actually does when a technical field is unfamiliar, when the source document itself contains an error, when confidential data meets an AI tool, or when a quality process has never actually been tested.
-
-The 4 questions below get past the credentials. Below, each one is my own answer: my own AI system and me.
+Below are the 4 questions that actually test a translator's process, with my own answer under each one.
 
 ## 1. How does your translator handle a technical field they have not worked in before?
 
@@ -55,7 +53,7 @@ I ask myself the same 4 questions before any tool touches a client's confidentia
 
 **A vendor who cannot explain all 4 clearly, not just say yes, has already answered the real question.**
 
-My own answer: every draft stays inside a Japan-based processing region, never used to train the underlying model, backed by an NDA on request before a project starts. [A full breakdown of that risk and workflow](/blog/ai-patent-translation-confidentiality-risk/) covers the mechanism in detail, from a 2015 leak that exposed government correspondence to a 2024 ABA ethics opinion treating AI data handling as a live professional duty.
+My own answer: every draft stays inside a Japan-based processing region, is never used to train the underlying model, and is backed by an NDA on request before a project starts. [A full breakdown of that risk and workflow](/blog/ai-patent-translation-confidentiality-risk/) covers the mechanism in detail, from a 2015 leak that exposed government correspondence to a 2024 ABA ethics opinion treating AI data handling as a live professional duty.
 
 ## 4. What does your translator's quality process actually catch?
 
