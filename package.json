@@ -1,0 +1,13 @@
+{
+  "name": "soma-translator-site-tools",
+  "version": "1.0.0",
+  "description": "SEO rank-tracking tools for soma-patent-translator-jp.com (Google Search Console API)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "gsc:fetch": "node scripts/fetch_gsc_ranks.mjs"
+  },
+  "dependencies": {
+    "googleapis": "^181.0.0"
+  }
+}

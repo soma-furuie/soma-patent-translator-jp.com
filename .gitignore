@@ -32,6 +32,15 @@ __pycache__/
 *.pyc
 .venv/
 
+# ===== Node.js (SEO rank-tracking tools) =====
+node_modules/
+
+# ===== GSC API credentials — 絶対にコミットしない =====
+.secrets/
+
+# ===== SEO順位・キーワード戦略データ(公開リポジトリのため非公開扱い) =====
+data/seo/
+
 # ===== Raw image sources at project root (not for theme/static) =====
 /photo_*.jpg
 /*.jpeg
