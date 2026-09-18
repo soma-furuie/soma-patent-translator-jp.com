@@ -10,8 +10,74 @@ A custom translation system designed for patents, so every project benefits from
 
 ## The Process
 
-<div class="diagram-wrap">
-<img src="/images/how-i-work-flow.svg" alt="7-step patent translation workflow: Project Setup, Translation Memory Lookup, AI First Draft, Automated Quality Checks, and AI-Assisted Review run automatically; Human Review and Delivery with Translation Notes are handled by me." width="1480" height="300" loading="lazy">
+<div class="flow-vertical">
+
+<p class="flow-group-label">Steps 1&ndash;5: Automated</p>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">1</span></div>
+<div class="flow-step-body">
+<h3>Project Setup</h3>
+<p>Terminology locked across 3 layers before translation starts.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">2</span></div>
+<div class="flow-step-body">
+<h3>Translation Memory Lookup</h3>
+<p>Past filings carry forward into the next project.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">3</span></div>
+<div class="flow-step-body">
+<h3>AI First Draft</h3>
+<p>Claude on AWS Bedrock, fed your glossary and prior context.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">4</span></div>
+<div class="flow-step-body">
+<h3>Automated Quality Checks</h3>
+<p>Mechanical errors caught before I ever read a draft.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">5</span></div>
+<div class="flow-step-body">
+<h3>AI-Assisted Review</h3>
+<p>Scope ambiguities and claim-spec issues risk-tagged for me.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<p class="flow-group-label">Steps 6&ndash;7: Human-Led</p>
+
+<div class="flow-step flow-step-featured">
+<div class="flow-step-marker"><span class="flow-step-num">6</span></div>
+<div class="flow-step-body">
+<h3>Human Review</h3>
+<p>Every sentence, read by me. This is the work.</p>
+</div>
+</div>
+<div class="flow-connector"></div>
+
+<div class="flow-step">
+<div class="flow-step-marker"><span class="flow-step-num">7</span></div>
+<div class="flow-step-body">
+<h3>Delivery with Translation Notes</h3>
+<p>Delivered in <strong>1.5&ndash;3 business days</strong>, depending on document size.</p>
+</div>
+</div>
+
 </div>
 
 **1. Project Setup**
@@ -49,6 +115,8 @@ Years of patent review experience applied to your translation — this is where 
 With the drafting layer automated, I'm not piecing language together from scratch — I'm examining language that's already in clean, consistent form. **My attention goes where only a reviewer's eye can go: scope ambiguities, intent gaps, and places where the source meant something the words don't quite say.**
 
 **7. Delivery with Translation Notes**
+
+Delivered in **1.5–3 business days**, depending on document size (see [Services](/services/) for the full breakdown).
 
 I deliver a translation-notes document alongside the translation, listing source-text issues I flagged during review — original typos, reference-sign mismatches, and structurally ambiguous passages where I had to choose an interpretation. **You see what I caught and how I read the ambiguous parts.**
 

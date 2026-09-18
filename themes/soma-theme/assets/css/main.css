@@ -781,6 +781,18 @@ footer {
 }
 .tech-field-card h3 { margin: 0 0 0.6rem; font-size: 1.15rem; }
 .tech-field-card p { font-size: 0.92rem; color: var(--color-body-soft); margin: 0; line-height: 1.6; }
+.tech-field-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+.tech-field-list li {
+  font-size: 0.92rem;
+  color: var(--color-body-soft);
+  line-height: 1.6;
+  margin-bottom: 0.35rem;
+}
+.tech-field-list li:last-child { margin-bottom: 0; }
 
 .tech-field-also {
   background: var(--color-bg-alt);
@@ -802,6 +814,103 @@ footer {
 
 @media (max-width: 640px) {
   .tech-fields-grid { grid-template-columns: 1fr; gap: 1.2rem; }
+}
+
+/* ===== Vertical Process Flow (How I Work page) ===== */
+.flow-vertical {
+  margin: 2rem 0 2.6rem;
+  max-width: 640px;
+}
+
+.flow-group-label {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 0.9rem;
+}
+.flow-vertical .flow-group-label:not(:first-child) {
+  margin-top: 0.4rem;
+}
+
+.flow-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.5rem 1.7rem;
+}
+
+.flow-step-marker {
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--color-bg-alt);
+  border: 1.5px solid var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flow-step-num {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-primary);
+}
+
+.flow-step-body h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.2rem;
+}
+.flow-step-body p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-body-soft);
+  line-height: 1.6;
+}
+
+.flow-connector {
+  position: relative;
+  width: 2px;
+  height: 30px;
+  background: var(--color-border);
+  margin-left: 23px;
+}
+.flow-connector::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--color-border);
+}
+
+.flow-step-featured {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.flow-step-featured .flow-step-marker {
+  background: var(--color-primary);
+  border-color: #FFFFFF;
+}
+.flow-step-featured .flow-step-num { color: #FFFFFF; }
+.flow-step-featured h3 { color: #FFFFFF; }
+.flow-step-featured p { color: rgba(255, 255, 255, 0.85); }
+.flow-step-featured strong { color: #FFFFFF; }
+
+@media (max-width: 640px) {
+  .flow-step { gap: 1.1rem; padding: 1.2rem 1.3rem; }
+  .flow-step-marker { width: 40px; height: 40px; }
+  .flow-connector { margin-left: 20px; }
 }
 
 /* ===== Comparison table Yes/No badges (How I Work page) ===== */

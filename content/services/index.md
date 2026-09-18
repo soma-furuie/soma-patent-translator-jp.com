@@ -35,12 +35,25 @@ Not a fit for:
 <div class="tech-field-card">
 <svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
 <h3>Medical Devices</h3>
-<p>Surgical instruments, catheter and stent technologies, implants, orthopedic and heart valve devices, ablation and ultrasonic surgical devices, medical delivery systems.</p>
+<ul class="tech-field-list">
+<li>Surgical instruments</li>
+<li>Catheter and stent technologies</li>
+<li>Implants</li>
+<li>Orthopedic and heart valve devices</li>
+<li>Ablation and ultrasonic surgical devices</li>
+<li>Medical delivery systems</li>
+</ul>
 </div>
 <div class="tech-field-card">
 <svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
 <h3>Mechanical Engineering</h3>
-<p>Machine tools, material testing systems, measuring and testing equipment, power tools, fasteners and fixation systems.</p>
+<ul class="tech-field-list">
+<li>Machine tools</li>
+<li>Material testing systems</li>
+<li>Measuring and testing equipment</li>
+<li>Power tools</li>
+<li>Fasteners and fixation systems</li>
+</ul>
 </div>
 </div>
 
