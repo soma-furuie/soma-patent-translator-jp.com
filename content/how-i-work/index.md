@@ -74,12 +74,12 @@ Need the technical detail (specific certifications, Bedrock model identifier, re
 
 | | My Workflow | Generic MT (Google/DeepL) | ChatGPT (consumer) |
 |---|---|---|---|
-| Patent-specific terminology | **Yes (Glossary + TermCheck)** | No | No |
-| Human review | **Every document** | No | No |
-| Translation notes | **Yes — source issues + interpretation calls** | No | No |
+| Patent-specific terminology | <span class="tbl-yes">✓</span> **Glossary + TermCheck** | <span class="tbl-no">✕</span> No | <span class="tbl-no">✕</span> No |
+| Human review | <span class="tbl-yes">✓</span> **Every document** | <span class="tbl-no">✕</span> No | <span class="tbl-no">✕</span> No |
+| Translation notes | <span class="tbl-yes">✓</span> **Source issues + interpretation calls** | <span class="tbl-no">✕</span> No | <span class="tbl-no">✕</span> No |
 | Data used for training | **Never** | May be used | May be used |
 | Data retention | **None** | Varies | Up to 30 days |
 | Processing location | **Japan only** | Unknown/Global | Global |
-| Terminology consistency | **Enforced by system** | None | None |
+| Terminology consistency | <span class="tbl-yes">✓</span> **Enforced by system** | <span class="tbl-no">✕</span> None | <span class="tbl-no">✕</span> None |
 
 See [Services](/services/) for pricing and turnaround, or the [FAQ](/faq/) for common questions. [Ready to get started? →](/contact/)
