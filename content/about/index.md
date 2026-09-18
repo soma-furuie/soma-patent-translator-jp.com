@@ -10,6 +10,10 @@ My turnaround (1.5–3 business days, depending on document size — see [Servic
 
 ## Background
 
+<div class="diagram-wrap">
+<img src="/images/about-career-timeline.svg" alt="Career timeline: joined a Japanese patent translation company in 2019, spent 5 years 9 months in-house with 80% review work, transitioned to full-time freelance in 2025, now past 13 million words of patent content overall (10 million reviewed, 3 million translated)." width="1300" height="320" loading="lazy">
+</div>
+
 Joined a Japanese patent translation company in 2019. Spent **5 years and 9 months in-house**, at **2 million words of patent content per year**. **80% of that time was reviewing translations** by colleagues and external contractors; the rest I translated myself.
 
 With ongoing freelance work since, I have now passed **13 million words of patent content overall**: **10 million reviewed and 3 million translated**.

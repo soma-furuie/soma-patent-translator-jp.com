@@ -10,6 +10,10 @@ A custom translation system designed for patents, so every project benefits from
 
 ## The Process
 
+<div class="diagram-wrap">
+<img src="/images/how-i-work-flow.svg" alt="7-step patent translation workflow: Project Setup, Translation Memory Lookup, AI First Draft, Automated Quality Checks, and AI-Assisted Review run automatically; Human Review and Delivery with Translation Notes are handled by me." width="1480" height="300" loading="lazy">
+</div>
+
 **1. Project Setup**
 
 Terminology gets locked before translation starts, across 3 layers:
