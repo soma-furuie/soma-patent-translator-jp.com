@@ -59,7 +59,7 @@ Not a fit for:
 
 <div class="tech-field-also">
 <p class="tech-field-also-label">Also Handle</p>
-<ul class="spec-list">
+<ul class="tech-field-list">
 <li>Electronics and electrical engineering</li>
 <li>Semiconductors</li>
 <li>Telecommunications</li>
