@@ -816,6 +816,72 @@ footer {
   .tech-fields-grid { grid-template-columns: 1fr; gap: 1.2rem; }
 }
 
+/* ===== Career Timeline (About page) ===== */
+.timeline-horizontal {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin: 2rem 0 2.6rem;
+  padding: 2.2rem 1.6rem 1.8rem;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+.timeline-line {
+  position: absolute;
+  top: 2.2rem;
+  left: calc(12.5% + 0.7rem);
+  right: calc(12.5% + 0.7rem);
+  height: 2px;
+  background: var(--color-border);
+}
+.timeline-point {
+  position: relative;
+  text-align: center;
+}
+.timeline-dot {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 0 1px var(--color-border);
+  margin: 0 auto 1.1rem;
+}
+.timeline-year {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.5rem;
+}
+.timeline-point h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+}
+.timeline-detail {
+  font-size: 0.85rem;
+  color: var(--color-body-soft);
+  margin: 0;
+  line-height: 1.5;
+}
+.timeline-point-featured .timeline-year,
+.timeline-point-featured h3 { color: var(--color-accent); }
+.timeline-point-featured .timeline-dot { background: var(--color-accent); }
+
+@media (max-width: 780px) {
+  .timeline-horizontal { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.2rem; padding: 1.8rem 1.4rem; }
+  .timeline-line { display: none; }
+}
+@media (max-width: 480px) {
+  .timeline-horizontal { grid-template-columns: 1fr; gap: 1.6rem; }
+}
+
 /* ===== Vertical Process Flow (How I Work page) ===== */
 .flow-vertical {
   margin: 2rem 0 2.6rem;

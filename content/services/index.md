@@ -59,7 +59,15 @@ Not a fit for:
 
 <div class="tech-field-also">
 <p class="tech-field-also-label">Also Handle</p>
-<p>Electronics and electrical engineering, semiconductors, telecommunications, software-related technologies, AI-related technologies, optical and lens systems, lighting and emission devices.</p>
+<ul class="spec-list">
+<li>Electronics and electrical engineering</li>
+<li>Semiconductors</li>
+<li>Telecommunications</li>
+<li>Software-related technologies</li>
+<li>AI-related technologies</li>
+<li>Optical and lens systems</li>
+<li>Lighting and emission devices</li>
+</ul>
 </div>
 
 ## What's Included

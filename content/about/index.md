@@ -10,8 +10,32 @@ My turnaround (1.5–3 business days, depending on document size — see [Servic
 
 ## Background
 
-<div class="diagram-wrap">
-<img src="/images/about-career-timeline.svg" alt="Career timeline: joined a Japanese patent translation company in 2019, spent 5 years 9 months in-house with 80% review work, transitioned to full-time freelance in 2025, now past 13 million words of patent content overall (10 million reviewed, 3 million translated)." width="1300" height="320" loading="lazy">
+<div class="timeline-horizontal">
+<div class="timeline-line"></div>
+<div class="timeline-point">
+<span class="timeline-dot"></span>
+<p class="timeline-year">2019</p>
+<h3>Joined In-House</h3>
+<p class="timeline-detail">Japanese patent translation company</p>
+</div>
+<div class="timeline-point">
+<span class="timeline-dot"></span>
+<p class="timeline-year">5y 9m In-House</p>
+<h3>80% Review</h3>
+<p class="timeline-detail">2M+ words/year of patent content</p>
+</div>
+<div class="timeline-point">
+<span class="timeline-dot"></span>
+<p class="timeline-year">2025</p>
+<h3>Full-Time Freelance</h3>
+<p class="timeline-detail">Translation becomes primary deliverable</p>
+</div>
+<div class="timeline-point timeline-point-featured">
+<span class="timeline-dot"></span>
+<p class="timeline-year">Now</p>
+<h3>13M+ Words Overall</h3>
+<p class="timeline-detail">10M reviewed &middot; 3M translated</p>
+</div>
 </div>
 
 Joined a Japanese patent translation company in 2019. Spent **5 years and 9 months in-house**, at **2 million words of patent content per year**. **80% of that time was reviewing translations** by colleagues and external contractors; the rest I translated myself.
