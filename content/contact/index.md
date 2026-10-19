@@ -10,6 +10,10 @@ Inquiries from patent attorneys, IP departments, translation agencies, and anyon
 
 **Email:** [contact@soma-patent-translator-jp.com](mailto:contact@soma-patent-translator-jp.com)
 
+{{< toolnote >}}
+
+{{< outofscope >}}
+
 For a quote, include:
 
 - Your document (or word count / page count)

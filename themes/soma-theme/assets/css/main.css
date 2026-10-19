@@ -23,6 +23,9 @@
   --color-border:         #D9D2C5;
   --color-border-soft:    #E8E3D6;
   --color-white:          #FFFFFF;
+  --color-warn:           #A63A2C;
+  --color-warn-bg:        #FBF1EE;
+  --color-warn-border:    #E6C7BF;
   --color-overlay-dark:   rgba(27, 42, 74, 0.92);
 
   /* Typography */
@@ -815,6 +818,63 @@ footer {
 @media (max-width: 640px) {
   .tech-fields-grid { grid-template-columns: 1fr; gap: 1.2rem; }
 }
+
+
+/* ===== Scope warnings (out of scope / not a fit / tool note) ===== */
+.warn { color: var(--color-warn); font-weight: 600; }
+.scope-out,
+.notfit-block {
+  background: var(--color-warn-bg);
+  border: 1px solid var(--color-warn-border);
+  border-left: 3px solid var(--color-warn);
+  padding: 1.1rem 1.4rem;
+  margin: 1.4rem 0 1.8rem;
+}
+.scope-out-label,
+.notfit-label,
+.tool-note-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-warn);
+  margin: 0 0 0.45rem;
+}
+.scope-out .scope-out-label,
+.notfit-block .notfit-label,
+.tool-note .tool-note-label { color: var(--color-warn); }
+.scope-out .scope-out-list { color: var(--color-warn); font-weight: 600; margin: 0 0 0.55rem; line-height: 1.55; }
+.scope-out .scope-out-test { font-size: 0.92rem; color: var(--color-body-soft); margin: 0; line-height: 1.6; }
+.warn, .scope-out .warn, .tool-note .warn, .notfit-block .warn { color: var(--color-warn); font-weight: 600; }
+.notfit-block ul { margin: 0; padding-left: 1.2rem; }
+.notfit-block li { font-size: 0.95rem; margin-bottom: 0.3rem; }
+.notfit-block li:last-child { margin-bottom: 0; }
+.tool-note {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-warn);
+  padding: 1.1rem 1.4rem;
+  margin: 1.4rem 0 1.8rem;
+}
+.tool-note p { margin: 0; font-size: 0.95rem; line-height: 1.65; }
+.tool-note-label { display: block; }
+.tech-field-sub {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border-soft);
+  padding: 0.9rem 1.1rem;
+  margin: 0.2rem 0 1rem;
+}
+.tech-field-sub-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 0.4rem;
+}
+.spec-out { margin-top: 1.8rem; }
 
 /* ===== Career Timeline (About page) ===== */
 .timeline-horizontal {

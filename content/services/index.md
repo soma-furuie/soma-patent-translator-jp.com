@@ -1,6 +1,6 @@
 ---
 title: "English to Japanese Patent Translation Services"
-description: "EN→JA patent translation. Specifications, abstracts, claims. Paris route and PCT Japan filings. Medical devices and mechanical engineering primary fields."
+description: "EN→JA patent translation. Specifications, abstracts, claims. Paris route and PCT Japan filings. Mechanical engineering (including medical devices) and electrical and electronics."
 layout: "page"
 ---
 
@@ -13,16 +13,20 @@ Translation as the primary deliverable — backed by [a reviewer's eye](/about/)
 I am a strong fit for:
 
 - US and EU IP firms filing patents in Japan
-- Medical device and mechanical engineering patent applicants
+- Mechanical and electrical engineering patent applicants, including medical devices
 - Clients who value scope precision over the lowest available rate
 - Filings drafted in non-native English
 
-Not a fit for:
-
-- High-volume agency contract bidding
-- Projects requiring specific CAT (computer-assisted translation) tool mandates
-- Language pairs other than English-to-Japanese
-- Generic technical translation outside patents
+<div class="notfit-block">
+<p class="notfit-label">Not a fit for</p>
+<ul>
+<li><span class="warn">Chemistry, pharmaceutical, and biotechnology patents</span></li>
+<li>Projects requiring <span class="warn">specific CAT (computer-assisted translation) tool mandates</span></li>
+<li>High-volume agency contract bidding</li>
+<li>Language pairs other than English-to-Japanese</li>
+<li>Generic technical translation outside patents</li>
+</ul>
+</div>
 
 ## Document Types
 
@@ -33,8 +37,10 @@ Not a fit for:
 
 <div class="tech-fields-grid">
 <div class="tech-field-card">
-<svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-<h3>Medical Devices</h3>
+<svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+<h3>Mechanical Engineering</h3>
+<div class="tech-field-sub">
+<p class="tech-field-sub-label">Strongest area: medical devices</p>
 <ul class="tech-field-list">
 <li>Surgical instruments</li>
 <li>Catheter and stent technologies</li>
@@ -44,9 +50,6 @@ Not a fit for:
 <li>Medical delivery systems</li>
 </ul>
 </div>
-<div class="tech-field-card">
-<svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-<h3>Mechanical Engineering</h3>
 <ul class="tech-field-list">
 <li>Machine tools</li>
 <li>Material testing systems</li>
@@ -55,10 +58,9 @@ Not a fit for:
 <li>Fasteners and fixation systems</li>
 </ul>
 </div>
-</div>
-
-<div class="tech-field-also">
-<p class="tech-field-also-label">Also Handle</p>
+<div class="tech-field-card">
+<svg class="tech-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+<h3>Electrical and Electronics</h3>
 <ul class="tech-field-list">
 <li>Electronics and electrical engineering</li>
 <li>Semiconductors</li>
@@ -69,6 +71,11 @@ Not a fit for:
 <li>Lighting and emission devices</li>
 </ul>
 </div>
+</div>
+
+{{< outofscope >}}
+
+{{< toolnote >}}
 
 ## What's Included
 

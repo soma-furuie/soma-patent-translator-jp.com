@@ -8,6 +8,10 @@ layout: "page"
 
 **English to Japanese only**. Focusing on a single language pair helps me maintain consistency and quality.
 
+## Which translation tool do you use?
+
+{{< toolnote >}}
+
 ## What's your rate?
 
 **Rate: USD 0.13 per source word**, depending on technical complexity and document type. Full pricing context on the [Services page](/services/).
@@ -31,9 +35,9 @@ Wise, PayPal, and bank transfer.
 
 **Patent specifications** (descriptions, claims, abstracts, drawings text) and **standalone patent abstracts**, for both Paris route and PCT national-phase Japan filings.
 
-**Primary fields**: medical devices and mechanical engineering.
+**Fields**: mechanical engineering (strongest area: medical devices) and electrical and electronics (including semiconductors, telecommunications, software, AI, optical, and lighting technologies).
 
-**Secondary fields**: electronics, semiconductors, telecommunications, software, AI, optical, and lighting technologies.
+**Out of scope**: <span class="warn">chemistry, pharmaceuticals, biotechnology, clinical and diagnostic inventions, and formulations</span>. The test: the claims are defined by chemical composition, chemical structure, or biological material.
 
 ## Is my document kept confidential?
 
@@ -51,7 +55,7 @@ AI accelerates the first draft, but **quality comes from human review**. I check
 
 Yes, when **the agency allows me to use my own translation system**.
 
-I'm not a fit for agencies requiring specific CAT (computer-assisted translation) tool mandates.
+I'm not a fit for agencies requiring specific CAT (computer-assisted translation) tool mandates, such as <span class="warn">Trados</span>. MateCat can be used optionally, with turnaround quoted per project.
 
 ## Where are you based?
 
