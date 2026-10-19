@@ -35,7 +35,7 @@ Wise, PayPal, and bank transfer.
 
 **Patent specifications** (descriptions, claims, abstracts, drawings text) and **standalone patent abstracts**, for both Paris route and PCT national-phase Japan filings.
 
-**Fields**: mechanical engineering (strongest area: medical devices) and electrical and electronics (including semiconductors, telecommunications, software, AI, optical, and lighting technologies).
+**Fields**: mechanical engineering, including industrial equipment (strongest area: medical devices) and electrical and electronics (including semiconductors, telecommunications, software, AI, optical, and lighting technologies).
 
 **Out of scope**: <span class="warn">chemistry, pharmaceuticals, biotechnology, clinical and diagnostic inventions, and formulations</span>. The test: the claims are defined by chemical composition, chemical structure, or biological material.
 

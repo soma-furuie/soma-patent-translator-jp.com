@@ -51,6 +51,7 @@ I am a strong fit for:
 </ul>
 </div>
 <ul class="tech-field-list">
+<li>Industrial equipment</li>
 <li>Machine tools</li>
 <li>Material testing systems</li>
 <li>Measuring and testing equipment</li>
